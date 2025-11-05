@@ -1,11 +1,11 @@
 # Continuous Integration
 import unittest
-from hello import sum
+from hello import add
 
 
 class TestSum(unittest.TestCase):
     def test_sum(self):
-        self.assertEqual(sum(2, 3), 5)
+        self.assertEqual(add(2, 3), 5)
 
 
 if __name__ == "__main__":
